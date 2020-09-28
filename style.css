@@ -233,7 +233,7 @@ select > option {
   } 
 
   .fas {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .controls-container {
@@ -243,6 +243,7 @@ select > option {
   .control-group {
     position: relative;
     top: -25px;
+
   }
 
   .progress-range {
@@ -257,14 +258,18 @@ select > option {
   }
 
   .volume-range {
-    width: 50px;
+    width: 40px;
     left: 30px;
     top: -15px;
+  }
+  .controls-right {
+    width: fit-content;
   }
 
   .speed,
   .time {
     top: 3px;
+    
   }
 
   select {
@@ -272,7 +277,8 @@ select > option {
   }
 
   .time {
-    font-size: 12px;
+    font-size: 10px;
+    width: 100%;
   }
 }
 
