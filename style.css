@@ -262,9 +262,7 @@ select > option {
     left: 30px;
     top: -15px;
   }
-  .controls-right {
-    width: fit-content;
-  }
+ 
 
   .speed,
   .time {
@@ -278,7 +276,7 @@ select > option {
 
   .time {
     font-size: 10px;
-    width: 100%;
+    
   }
 }
 
